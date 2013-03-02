@@ -27,7 +27,7 @@ Some limitations:
  * Every code that might throw exceptions must be inside a try block
 * If you use goto to jump to a place inside a try catch, the behaviour is
   undefined
-* It don't support typedefs (it recognizes "char*" and "char *" as different
+* It doesn't support typedefs (it recognizes "char*" and "char *" as different
   types)
 * It doesn't implement RAII, so you must be very carefull to avoid resource
   leaking, but this is a C-related problem, not a problem with the
